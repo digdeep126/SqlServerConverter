@@ -148,13 +148,13 @@ public class SqlServerConverter {
 	public static void main(String[] args) {
 		// 这里的字符集一般是 StandardCharsets.UTF_16 或者 StandardCharsets.UTF_8，具体看你导出时采用的是那种字符集
 		// 如果sql server导出时选择了 unicode，那么这里就应该使用 StandardCharsets.UTF_16
-		SqlServerConverter.converterSqlServerToMySQL("F:\\111111\\Members.sql", StandardCharsets.UTF_16, 
-													"F:\\111111\\Members_mysql.sql");
+		SqlServerConverter.converterSqlServerToMySQL("F:\\Members.sql", StandardCharsets.UTF_16, 
+													"F:\\Members_mysql.sql");
 		
 		System.out.println("-------------------------------------------------");
 		
-		SqlServerConverter.converterSqlServerToMySQL("F:\\111111\\model_choise.sql", StandardCharsets.UTF_16, 
-														"F:\\111111\\model_choise_mysql.sql");
+		SqlServerConverter.converterSqlServerToMySQL("F:\\model_choise.sql", StandardCharsets.UTF_16, 
+														"F:\\model_choise_mysql.sql");
 		System.out.println("done.");
 	}
 	

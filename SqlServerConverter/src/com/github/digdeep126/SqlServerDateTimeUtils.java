@@ -142,8 +142,8 @@ public class SqlServerDateTimeUtils {
 		
 		try {
 			// 这里的字符集一般是 StandardCharsets.UTF_16 或者 StandardCharsets.UTF_8，具体看你导出时采用的是那种字符集
-			BufferedReader reader = Files.newBufferedReader(Paths.get("F:\\111111\\Members.sql"), StandardCharsets.UTF_16);
-			BufferedWriter writer = Files.newBufferedWriter(Paths.get("F:\\111111\\Members_mysql.sql"), StandardCharsets.UTF_8);
+			BufferedReader reader = Files.newBufferedReader(Paths.get("F:\\Members.sql"), StandardCharsets.UTF_16);
+			BufferedWriter writer = Files.newBufferedWriter(Paths.get("F:\\Members_mysql.sql"), StandardCharsets.UTF_8);
 			
 			String line = null; 
 			Matcher matcher = null; 
