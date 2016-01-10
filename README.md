@@ -5,4 +5,4 @@ sql server数据库在向mysql等数据库迁移数据时，会遇到一个麻�
 才能正确的完成sql server数据向mysql等数据库的迁移。
 注意本方法只能精确到秒级别，毫秒级别是不精确的(sql server本身只能精确到3.3毫秒)。
 
-具体可以参加博客：http://www.cnblogs.com/digdeep/p/4822499.html
+具体可以参考博客：http://www.cnblogs.com/digdeep/p/4822499.html
